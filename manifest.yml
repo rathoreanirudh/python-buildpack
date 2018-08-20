@@ -21,6 +21,9 @@ dependency_deprecation_dates:
   date: 2021-12-23
   link: https://docs.python.org/devguide/index.html#branchstatus
 dependencies:
+- name: cmake
+  version: 3.12.1
+  uri: https://cmake.org/files/v3.12/cmake-3.12.1.tar.gz
 - name: libffi
   version: 3.2.1
   cf_stacks:
