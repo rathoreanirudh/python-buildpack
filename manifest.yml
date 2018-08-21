@@ -52,7 +52,7 @@ dependencies:
 - name: pip
   version: 18.0 
   uri: https://github.com/pypa/pip/archive/18.0.tar.gz
-  sha256: 7bf48f9a693be1d58f49f7af7e0ae9fe29fd671cde8a55e6edca3581c4ef5796
+  sha256: 7dcc6321aed9bac0f745b1f2404c34dd6cdc450656877fdd71138c422f6b2363
   cf_stacks:
   - cflinuxfs2
   - cflinuxfs3
