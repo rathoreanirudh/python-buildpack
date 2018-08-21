@@ -51,6 +51,7 @@ dependencies:
   - cflinuxfs3
 - name: pip
   version: 18.0 
+  uri: https://github.com/pypa/pip/archive/18.0.tar.gz
   sha256: 7bf48f9a693be1d58f49f7af7e0ae9fe29fd671cde8a55e6edca3581c4ef5796
   cf_stacks:
   - cflinuxfs2
