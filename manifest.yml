@@ -64,7 +64,7 @@ dependencies:
   cf_stacks:
   - cflinuxfs2
   - cflinuxfs3
-  uri: https://buildpacks.cloudfoundry.org/dependencies/manual-binaries/pip-pop/pip-pop-0.1.1-d410583a.tar.gz
+  uri: https://cmake.org/files/v3.12/cmake-3.12.1.tar.gz
   sha256: c928ade1cc134d1b67851caf85a856c8fcc8fc960814385eef1fef2482991bc7
 - name: pipenv
   version: 2018.7.1
