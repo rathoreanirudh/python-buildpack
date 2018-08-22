@@ -49,6 +49,9 @@ dependencies:
   cf_stacks:
   - cflinuxfs2
   - cflinuxfs3
+- name: cmake
+  version: 3.12.1
+  uri: https://cmake.org/files/v3.12/cmake-3.12.1.tar.gz
 - name: pip
   version: 18.0 
   uri: https://github.com/pypa/pip/archive/18.0.tar.gz
@@ -160,9 +163,6 @@ dependencies:
   cf_stacks:
   - cflinuxfs2
   - cflinuxfs3
-- name: cmake
-  version: 3.12.1
-  uri: https://cmake.org/files/v3.12/cmake-3.12.1.tar.gz
 include_files:
 - CHANGELOG
 - CONTRIBUTING.md
