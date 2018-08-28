@@ -14,8 +14,8 @@ curl -s -L --retry 15 --retry-delay 2 $URL -o /tmp/boost.tar.gz
 
 
 tar xzf /tmp/boost.tar.gz -C $BoostInstallDir
-cd $BoostInstallDir
-ls
+cd $BoostInstallDir/boost_1_68_0/
+
 ./bootstrap.sh --with-libraries=python
 ./b2
 ./b2 install
