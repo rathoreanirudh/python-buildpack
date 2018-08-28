@@ -6,4 +6,4 @@ mkdir -p $BoostInstallDir
 
 echo "Installing boost"
 cd $BoostInstallDir
-sudo apt-get install libboost-all-dev
+aptitude search boost
