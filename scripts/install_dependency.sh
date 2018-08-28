@@ -3,4 +3,4 @@ set -euo pipefail
 
 
 echo "Installing boost"
-apt-get install libboost-all-dev
+sudo apt-get install libboost-all-dev
