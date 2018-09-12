@@ -15,6 +15,9 @@ source "$BUILDPACK_DIR/scripts/install_go.sh"
 echo "checking cmake installation"
 cmake --version
 echo "cmake check done"
+echo "check boost installation"
+dpkg -s libboost-dev | grep 'Version'
+echo "boost check done"
 # echo "running install dependency"
 # source "$BUILDPACK_DIR/scripts/install_dependency.sh"
 output_dir=$(mktemp -d -t supplyXXX)
